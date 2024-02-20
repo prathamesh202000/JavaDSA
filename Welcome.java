@@ -65,13 +65,52 @@ public class Welcome{
         // }
 
         //sum of first N natural Number
-        System.out.println("Enter a Number");
-        int n=sc.nextInt();
-        int sum=0;
-        while(n>0){
-            sum+=n;
-            n--;
-        }
-        System.out.println("Sum of first "+n+" Natural numbers: "+ sum);
+        // System.out.println("Enter a Number");
+        // int n=sc.nextInt();
+        // int sum=0;
+        // while(n>0){
+        //     sum+=n;
+        //     n--;
+        // }
+        // System.out.println("Sum of first "+n+" Natural numbers: "+ sum);
+        
+        //Area of circle
+        // System.out.println("Enter the radius of circle: ");
+        // float r=sc.nextFloat();
+        // float a=3.14f*r*r;
+        // System.out.println("Area of circle: "+a+" sq.m");
+
+        //Average of three numbers
+        // System.out.println("Enter 1st Number");
+        // int n1=sc.nextInt();
+        // System.out.println("Enter 2nd Number");
+        // int n2=sc.nextInt();
+        // System.out.println("Enter 3rd Number");
+        // int n3=sc.nextInt();
+
+        // int avg=(n1+n2+n3)/3;
+        // System.out.println("Average is: "+ avg);
+
+        //Area of square
+        // System.out.println("Enter side of square");
+        // int s=sc.nextInt();
+        // int a=s*s;
+        // System.out.println("Area of Square: "+a+" sq.m");
+
+        //Bill
+        System.out.println("Enter Price of pencil");
+        float p=sc.nextFloat();
+        System.out.println("Enter Price of pen");
+        float pn=sc.nextFloat();
+        System.out.println("Enter Price of Eraser");
+        float e=sc.nextFloat();
+
+        float bill=1.18f*(p+pn+e);
+
+        System.out.println("Final bill amount: "+bill);
+
+        
+        
+        
     }
 }
